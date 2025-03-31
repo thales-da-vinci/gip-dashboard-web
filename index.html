@@ -1,16 +1,22 @@
-
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>GIP Web Dashboard</title>
-  <link rel="stylesheet" href="style.css">
+  <title>📘 GIP Docs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
 </head>
 <body>
-  <h1>🌐 GIP Dashboard</h1>
-  <p>Sites registrados via JetEngine + GIP REST API</p>
-  <div id="site-list">Carregando sites...</div>
-  <script src="config.js"></script>
-  <script src="app.js"></script>
+  <div id="app">Carregando GIP Docs...</div>
+  <script>
+    window.$docsify = {
+      name: 'GIP Framework',
+      repo: 'thales-da-vinci/gip-dashboard-web',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      themeColor: '#007aff'
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
 </html>
