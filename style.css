@@ -1,0 +1,25 @@
+
+body {
+  font-family: sans-serif;
+  background: #f9f9f9;
+  padding: 2rem;
+}
+h1 {
+  color: #444;
+}
+.site-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
+button {
+  background: #005eff;
+  color: white;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
